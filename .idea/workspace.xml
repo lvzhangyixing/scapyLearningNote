@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a71aa0b-e064-4249-a3ad-5ff7a47c8ace" name="Default Changelist" comment="" />
+    <list default="true" id="3a71aa0b-e064-4249-a3ad-5ff7a47c8ace" name="Default Changelist" comment="try create new scrapy">
+      <change beforePath="$PROJECT_DIR$/.idea/scapy爬虫学习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scapy爬虫学习.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,9 +25,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3a71aa0b-e064-4249-a3ad-5ff7a47c8ace" name="Default Changelist" comment="" />
@@ -32,14 +38,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621507005084</updated>
-      <workItem from="1621507012362" duration="316000" />
+      <workItem from="1621507012362" duration="967000" />
     </task>
+    <task id="LOCAL-00001" summary="try create new scrapy">
+      <created>1621507363043</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621507363043</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="try create new scrapy" />
+    <option name="LAST_COMMIT_MESSAGE" value="try create new scrapy" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="360" y="23" width="785" height="876" key="CommitChangelistDialog2" timestamp="1621507701171">
+      <screen x="62" y="23" width="1378" height="877" />
+    </state>
+    <state x="360" y="23" width="785" height="876" key="CommitChangelistDialog2/62.23.1378.877@62.23.1378.877" timestamp="1621507701171" />
     <state x="616" y="365" key="Github.ShareDialog" timestamp="1621507125660">
       <screen x="62" y="23" width="1378" height="877" />
     </state>
@@ -48,9 +70,17 @@
       <screen x="62" y="23" width="1378" height="877" />
     </state>
     <state x="542" y="172" key="Github.UntrackedFilesDialog/62.23.1378.877@62.23.1378.877" timestamp="1621507132879" />
-    <state x="262" y="100" key="SettingsEditor" timestamp="1621507052045">
+    <state x="262" y="100" key="SettingsEditor" timestamp="1621507662071">
       <screen x="62" y="23" width="1378" height="877" />
     </state>
-    <state x="262" y="100" key="SettingsEditor/62.23.1378.877@62.23.1378.877" timestamp="1621507052045" />
+    <state x="262" y="100" key="SettingsEditor/62.23.1378.877@62.23.1378.877" timestamp="1621507662071" />
+    <state x="353" y="201" key="Vcs.Push.Dialog.v2" timestamp="1621507977466">
+      <screen x="62" y="23" width="1378" height="877" />
+    </state>
+    <state x="353" y="201" key="Vcs.Push.Dialog.v2/62.23.1378.877@62.23.1378.877" timestamp="1621507977466" />
+    <state x="566" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621507683510">
+      <screen x="62" y="23" width="1378" height="877" />
+    </state>
+    <state x="566" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.23.1378.877@62.23.1378.877" timestamp="1621507683510" />
   </component>
 </project>
