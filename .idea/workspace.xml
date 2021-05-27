@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a71aa0b-e064-4249-a3ad-5ff7a47c8ace" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/char3_scrapy命令行与shell/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/char3_scrapy命令行与shell/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,8 @@
       <option name="presentableId" value="Default" />
       <updated>1621507005084</updated>
       <workItem from="1621507012362" duration="44984000" />
-      <workItem from="1621688759887" duration="436000" />
+      <workItem from="1621688759887" duration="1542000" />
+      <workItem from="1621919402394" duration="4989000" />
     </task>
     <task id="LOCAL-00001" summary="try create new scrapy">
       <created>1621507363043</created>
@@ -76,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621508527925</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tese">
+      <created>1621689211006</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621689211006</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,10 +100,10 @@
       <screen x="62" y="23" width="1378" height="877" />
     </state>
     <state x="353" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.23.1378.877@62.23.1378.877" timestamp="1621606936266" />
-    <state x="360" y="23" width="785" height="876" key="CommitChangelistDialog2" timestamp="1621508527736">
+    <state x="360" y="23" width="785" height="876" key="CommitChangelistDialog2" timestamp="1621689210417">
       <screen x="62" y="23" width="1378" height="877" />
     </state>
-    <state x="360" y="23" width="785" height="876" key="CommitChangelistDialog2/62.23.1378.877@62.23.1378.877" timestamp="1621508527736" />
+    <state x="360" y="23" width="785" height="876" key="CommitChangelistDialog2/62.23.1378.877@62.23.1378.877" timestamp="1621689210417" />
     <state x="202" y="99" key="DiffContextDialog" timestamp="1621508555444">
       <screen x="62" y="23" width="1378" height="877" />
     </state>
@@ -112,10 +120,10 @@
       <screen x="62" y="23" width="1378" height="877" />
     </state>
     <state x="260" y="100" key="SettingsEditor/62.23.1378.877@62.23.1378.877" timestamp="1621689199750" />
-    <state x="353" y="201" key="Vcs.Push.Dialog.v2" timestamp="1621688782307">
+    <state x="353" y="201" key="Vcs.Push.Dialog.v2" timestamp="1621689220540">
       <screen x="62" y="23" width="1378" height="877" />
     </state>
-    <state x="353" y="201" key="Vcs.Push.Dialog.v2/62.23.1378.877@62.23.1378.877" timestamp="1621688782307" />
+    <state x="353" y="201" key="Vcs.Push.Dialog.v2/62.23.1378.877@62.23.1378.877" timestamp="1621689220540" />
     <state x="566" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621507683510">
       <screen x="62" y="23" width="1378" height="877" />
     </state>
