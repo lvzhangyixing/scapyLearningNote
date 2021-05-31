@@ -1,4 +1,4 @@
-# Scrapy settings for jobble_article project
+# Scrapy settings for downloadimage project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'jobble_article'
+BOT_NAME = 'downloadimage'
 
-SPIDER_MODULES = ['jobble_article.spiders']
-NEWSPIDER_MODULE = 'jobble_article.spiders'
+SPIDER_MODULES = ['downloadimage.spiders']
+NEWSPIDER_MODULE = 'downloadimage.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'jobble_article (+http://www.yourdomain.com)'
+#USER_AGENT = 'downloadimage (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'jobble_article.middlewares.JobbleArticleSpiderMiddleware': 543,
+#    'downloadimage.middlewares.DownloadimageSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'jobble_article.middlewares.JobbleArticleDownloaderMiddleware': 543,
+#    'downloadimage.middlewares.DownloadimageDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -62,9 +62,9 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
-   'jobble_article.pipelines.JobbleArticlePipeline': 300,
-}
+#ITEM_PIPELINES = {
+#    'downloadimage.pipelines.DownloadimagePipeline': 300,
+#}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html

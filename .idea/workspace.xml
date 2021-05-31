@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a71aa0b-e064-4249-a3ad-5ff7a47c8ace" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/char_4四个案例/quotes/quotes/spiders/quotes.py" afterDir="false" />
+    <list default="true" id="3a71aa0b-e064-4249-a3ad-5ff7a47c8ace" name="Default Changelist" comment="管道">
+      <change afterPath="$PROJECT_DIR$/char_4四个案例/quotes/quotes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/char_4四个案例/quotes/quotes/spiders/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_4爬取名人名言/quotes/quotes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/char_4四个案例/quotes/quotes/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_4爬取名人名言/quotes/quotes/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/char_4四个案例/quotes/quotes/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_4爬取名人名言/quotes/quotes/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/char_4四个案例/quotes/quotes/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_4爬取名人名言/quotes/quotes/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/char_4四个案例/quotes/quotes/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_4爬取名人名言/quotes/quotes/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/char_4四个案例/quotes/quotes/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_4爬取名人名言/quotes/quotes/spiders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/char_4四个案例/quotes/quotes/spiders/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char_4爬取名人名言/quotes/scrapy.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/char_4四个案例/quotes/scrapy.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/char5_Scrapy管道/jobble_article/jobble_article/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/char5_Scrapy管道/jobble_article/jobble_article/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/char5_Scrapy管道/jobble_article/jobble_article/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/char5_Scrapy管道/jobble_article/jobble_article/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/char5_Scrapy管道/jobble_article/jobble_article/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/char5_Scrapy管道/jobble_article/jobble_article/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/char5_Scrapy管道/jobble_article/jobble_article/spiders/article.py" beforeDir="false" afterPath="$PROJECT_DIR$/char5_Scrapy管道/jobble_article/jobble_article/spiders/article.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +67,8 @@
       <workItem from="1621507012362" duration="44984000" />
       <workItem from="1621688759887" duration="1542000" />
       <workItem from="1621919402394" duration="8334000" />
+      <workItem from="1622189531834" duration="3700000" />
+      <workItem from="1622429360933" duration="752000" />
     </task>
     <task id="LOCAL-00001" summary="try create new scrapy">
       <created>1621507363043</created>
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622085570140</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="管道">
+      <created>1622189688288</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622189688288</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,16 +130,18 @@
     <MESSAGE value="tese" />
     <MESSAGE value="crawl似乎与步骤冲突" />
     <MESSAGE value="创建爬取名人名言" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建爬取名人名言" />
+    <MESSAGE value="管道" />
+    <option name="LAST_COMMIT_MESSAGE" value="管道" />
   </component>
   <component name="WindowStateProjectService">
     <state x="353" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621606936266">
       <screen x="62" y="23" width="1378" height="877" />
     </state>
     <state x="353" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.23.1378.877@62.23.1378.877" timestamp="1621606936266" />
-    <state x="360" y="23" width="785" height="876" key="CommitChangelistDialog2" timestamp="1622085569915">
-      <screen x="62" y="23" width="1378" height="877" />
+    <state x="358" y="23" width="785" height="876" key="CommitChangelistDialog2" timestamp="1622189687970">
+      <screen x="60" y="23" width="1380" height="877" />
     </state>
+    <state x="358" y="23" key="CommitChangelistDialog2/60.23.1380.877@60.23.1380.877" timestamp="1622189687970" />
     <state x="360" y="23" width="785" height="876" key="CommitChangelistDialog2/62.23.1378.877@62.23.1378.877" timestamp="1622085569915" />
     <state x="202" y="99" key="DiffContextDialog" timestamp="1622085554231">
       <screen x="62" y="23" width="1378" height="877" />
@@ -150,9 +159,10 @@
       <screen x="62" y="23" width="1378" height="877" />
     </state>
     <state x="260" y="100" key="SettingsEditor/62.23.1378.877@62.23.1378.877" timestamp="1621689199750" />
-    <state x="353" y="201" key="Vcs.Push.Dialog.v2" timestamp="1622085581958">
-      <screen x="62" y="23" width="1378" height="877" />
+    <state x="351" y="201" key="Vcs.Push.Dialog.v2" timestamp="1622189694694">
+      <screen x="60" y="23" width="1380" height="877" />
     </state>
+    <state x="351" y="201" key="Vcs.Push.Dialog.v2/60.23.1380.877@60.23.1380.877" timestamp="1622189694694" />
     <state x="353" y="201" key="Vcs.Push.Dialog.v2/62.23.1378.877@62.23.1378.877" timestamp="1622085581958" />
     <state x="566" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621507683510">
       <screen x="62" y="23" width="1378" height="877" />
