@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a71aa0b-e064-4249-a3ad-5ff7a47c8ace" name="Default Changelist" comment="管道">
-      <change afterPath="$PROJECT_DIR$/char_4四个案例/quotes/quotes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/char_4四个案例/quotes/quotes/spiders/__init__.py" afterDir="false" />
+    <list default="true" id="3a71aa0b-e064-4249-a3ad-5ff7a47c8ace" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/char5_Scrapy管道/downloadimage/downloadimage/mongoTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/char5_Scrapy管道/downloadimage/qidian2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/char5_Scrapy管道/lianjiahouse/lianjiahouse/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/char5_Scrapy管道/lianjiahouse/lianjiahouse/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/char5_Scrapy管道/lianjiahouse/lianjiahouse/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/char5_Scrapy管道/lianjiahouse/lianjiahouse/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/char5_Scrapy管道/lianjiahouse/lianjiahouse/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/char5_Scrapy管道/lianjiahouse/lianjiahouse/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/char5_Scrapy管道/lianjiahouse/lianjiahouse/spiders/house.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/char5_Scrapy管道/lianjiahouse/scrapy.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char5_Scrapy管道/jobble_article/jobble_article/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/char5_Scrapy管道/jobble_article/jobble_article/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char5_Scrapy管道/jobble_article/jobble_article/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/char5_Scrapy管道/jobble_article/jobble_article/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char5_Scrapy管道/jobble_article/jobble_article/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/char5_Scrapy管道/jobble_article/jobble_article/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/char5_Scrapy管道/jobble_article/jobble_article/spiders/article.py" beforeDir="false" afterPath="$PROJECT_DIR$/char5_Scrapy管道/jobble_article/jobble_article/spiders/article.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/char5_Scrapy管道/downloadimage/downloadimage/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/char5_Scrapy管道/downloadimage/downloadimage/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/char5_Scrapy管道/downloadimage/downloadimage/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/char5_Scrapy管道/downloadimage/downloadimage/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/char5_Scrapy管道/downloadimage/downloadimage/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/char5_Scrapy管道/downloadimage/downloadimage/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/char5_Scrapy管道/downloadimage/downloadimage/spiders/getimage.py" beforeDir="false" afterPath="$PROJECT_DIR$/char5_Scrapy管道/downloadimage/downloadimage/spiders/getimage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +47,53 @@
   </component>
   <component name="JupyterTrust" id="5486e12d-3cd4-41c2-80e2-1652e639f23b" />
   <component name="ProjectId" id="1snSkcohXR95wNHa3AVDuSVtBKb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mongo" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="mongoTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scapy爬虫学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/char5_Scrapy管道/downloadimage/downloadimage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/char5_Scrapy管道/downloadimage/downloadimage/mongoTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mongoTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -68,7 +110,8 @@
       <workItem from="1621688759887" duration="1542000" />
       <workItem from="1621919402394" duration="8334000" />
       <workItem from="1622189531834" duration="3700000" />
-      <workItem from="1622429360933" duration="752000" />
+      <workItem from="1622429360933" duration="5432000" />
+      <workItem from="1622440457650" duration="12167000" />
     </task>
     <task id="LOCAL-00001" summary="try create new scrapy">
       <created>1621507363043</created>
@@ -119,30 +162,39 @@
       <option name="project" value="LOCAL" />
       <updated>1622189688288</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="qidian.com/finish">
+      <created>1622430498342</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622430498342</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="try create new scrapy" />
     <MESSAGE value="tese" />
     <MESSAGE value="crawl似乎与步骤冲突" />
     <MESSAGE value="创建爬取名人名言" />
     <MESSAGE value="管道" />
-    <option name="LAST_COMMIT_MESSAGE" value="管道" />
+    <MESSAGE value="qidian.com/finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="qidian.com/finish" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="353" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621606936266">
+    <state x="353" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622447347098">
       <screen x="62" y="23" width="1378" height="877" />
     </state>
-    <state x="353" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.23.1378.877@62.23.1378.877" timestamp="1621606936266" />
-    <state x="358" y="23" width="785" height="876" key="CommitChangelistDialog2" timestamp="1622189687970">
-      <screen x="60" y="23" width="1380" height="877" />
+    <state x="353" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.23.1378.877@62.23.1378.877" timestamp="1622447347098" />
+    <state x="360" y="23" width="785" height="876" key="CommitChangelistDialog2" timestamp="1622430498084">
+      <screen x="62" y="23" width="1378" height="877" />
     </state>
     <state x="358" y="23" key="CommitChangelistDialog2/60.23.1380.877@60.23.1380.877" timestamp="1622189687970" />
-    <state x="360" y="23" width="785" height="876" key="CommitChangelistDialog2/62.23.1378.877@62.23.1378.877" timestamp="1622085569915" />
+    <state x="360" y="23" width="785" height="876" key="CommitChangelistDialog2/62.23.1378.877@62.23.1378.877" timestamp="1622430498084" />
     <state x="202" y="99" key="DiffContextDialog" timestamp="1622085554231">
       <screen x="62" y="23" width="1378" height="877" />
     </state>
@@ -155,18 +207,37 @@
       <screen x="62" y="23" width="1378" height="877" />
     </state>
     <state x="542" y="172" key="Github.UntrackedFilesDialog/62.23.1378.877@62.23.1378.877" timestamp="1621507132879" />
+    <state width="1033" height="231" key="GridCell.Tab.0.bottom" timestamp="1622450286469">
+      <screen x="62" y="23" width="1378" height="877" />
+    </state>
+    <state width="1033" height="231" key="GridCell.Tab.0.bottom/62.23.1378.877@62.23.1378.877" timestamp="1622450286469" />
+    <state width="1033" height="231" key="GridCell.Tab.0.center" timestamp="1622450286467">
+      <screen x="62" y="23" width="1378" height="877" />
+    </state>
+    <state width="1033" height="231" key="GridCell.Tab.0.center/62.23.1378.877@62.23.1378.877" timestamp="1622450286467" />
+    <state width="1033" height="231" key="GridCell.Tab.0.left" timestamp="1622450286466">
+      <screen x="62" y="23" width="1378" height="877" />
+    </state>
+    <state width="1033" height="231" key="GridCell.Tab.0.left/62.23.1378.877@62.23.1378.877" timestamp="1622450286466" />
+    <state width="1033" height="231" key="GridCell.Tab.0.right" timestamp="1622450286468">
+      <screen x="62" y="23" width="1378" height="877" />
+    </state>
+    <state width="1033" height="231" key="GridCell.Tab.0.right/62.23.1378.877@62.23.1378.877" timestamp="1622450286468" />
     <state x="260" y="100" key="SettingsEditor" timestamp="1621689199750">
       <screen x="62" y="23" width="1378" height="877" />
     </state>
     <state x="260" y="100" key="SettingsEditor/62.23.1378.877@62.23.1378.877" timestamp="1621689199750" />
-    <state x="351" y="201" key="Vcs.Push.Dialog.v2" timestamp="1622189694694">
-      <screen x="60" y="23" width="1380" height="877" />
+    <state x="353" y="201" key="Vcs.Push.Dialog.v2" timestamp="1622430504723">
+      <screen x="62" y="23" width="1378" height="877" />
     </state>
     <state x="351" y="201" key="Vcs.Push.Dialog.v2/60.23.1380.877@60.23.1380.877" timestamp="1622189694694" />
-    <state x="353" y="201" key="Vcs.Push.Dialog.v2/62.23.1378.877@62.23.1378.877" timestamp="1622085581958" />
+    <state x="353" y="201" key="Vcs.Push.Dialog.v2/62.23.1378.877@62.23.1378.877" timestamp="1622430504723" />
     <state x="566" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621507683510">
       <screen x="62" y="23" width="1378" height="877" />
     </state>
     <state x="566" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.23.1378.877@62.23.1378.877" timestamp="1621507683510" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/scapy$mongoTest.coverage" NAME="mongoTest Coverage Results" MODIFIED="1622449321043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/char5_Scrapy管道/downloadimage/downloadimage" />
   </component>
 </project>
